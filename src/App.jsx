@@ -1,12 +1,13 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./assets/dist/css/App.min.css";
 import MyNavBar from "./components/MyNavBar";
+import { Container } from "react-bootstrap";
 
 function App() {
   return (
-    <div className="App">
+    <Container>
       <MyNavBar />
-    </div>
+    </Container>
   );
 }
 

@@ -1,9 +1,7 @@
 @import "./partials/bootstrap-overrides";
 body {
-  .navbar {
-    .img-fluid {
-      height: 50px;
-    }
+  .navbar img {
+    height: 50px;
   }
 }
 
