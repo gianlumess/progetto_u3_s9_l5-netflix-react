@@ -12153,9 +12153,10 @@ body .navbar img {
   padding-inline: 0;
 }
 
-section .img-fluid {
+section img {
   transition: 300ms;
 }
-section .img-fluid:hover {
+section img:hover {
   transform: scale(1.1);
+  cursor: pointer;
 }/*# sourceMappingURL=App.css.map */

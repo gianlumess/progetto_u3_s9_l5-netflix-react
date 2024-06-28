@@ -1,5 +1,5 @@
 import { Component } from "react";
-import { Carousel, Image } from "react-bootstrap";
+import { Col, Image, Row } from "react-bootstrap";
 
 class Galleria extends Component {
   state = {
@@ -28,18 +28,16 @@ class Galleria extends Component {
   }
   render() {
     return (
-      <Carousel>
-        <section className="my-3 d-flex flex-column">
-          <h3>{this.props.saga + " Saga:"}</h3>
-          <div className="row gx-2 gy-2">
-            {this.state.arrayFilms.map((film) => (
-              <div className="col-12 col-sm-6 col-md-4 col-xl-2" key={film.imdbID}>
-                <Image className="img-fluid w-100" src={film.Poster} />
-              </div>
-            ))}
-          </div>
-        </section>
-      </Carousel>
+      <section className="my-3 d-flex flex-column">
+        <h2 className="mb-4">{this.props.saga + " Saga:"}</h2>
+        <Row className="gx-2 gy-2">
+          {this.state.arrayFilms.map((film) => (
+            <Col xs={12} sm={6} md={4} xl={2} key={film.imdbID}>
+              <Image className="img-fluid w-100" src={film.Poster} />
+            </Col>
+          ))}
+        </Row>
+      </section>
     );
   }
 }

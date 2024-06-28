@@ -20,10 +20,11 @@ body {
 }
 
 section {
-  .img-fluid {
+  img {
     transition: 300ms;
   }
-  .img-fluid:hover {
+  img:hover {
     transform: scale(1.1);
+    cursor: pointer;
   }
 }

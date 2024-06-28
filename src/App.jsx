@@ -11,7 +11,10 @@ function App() {
     <Container>
       <MyNavBar />
       <HeroSection />
+
       <Galleria saga="Star Wars" />
+      <Galleria saga="Harry Potter" />
+      <Galleria saga="The Lord Of The Rings" />
       <MyFooter />
     </Container>
   );
