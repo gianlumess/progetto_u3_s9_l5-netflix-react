@@ -1,12 +1,16 @@
 import { Component } from "react";
-import { Col, Image, Row } from "react-bootstrap";
+import { Col, Image, Row, Spinner } from "react-bootstrap";
 
 class Galleria extends Component {
   state = {
     arrayFilms: [],
+    isLoading: false,
   };
 
   filmsFetch = () => {
+    //setto lo stato di caricamento a true prima che parta la fetch
+    this.setState({ isLoading: true });
+
     fetch("http://www.omdbapi.com/?apikey=dab26447&s=" + this.props.saga)
       .then((resp) => {
         if (resp.ok) {
@@ -19,6 +23,7 @@ class Galleria extends Component {
       .then((films) => {
         console.log(films);
         this.setState({ arrayFilms: films.Search });
+        this.setState({ isLoading: false });
       })
       .catch((err) => console.log(err));
   };
@@ -29,7 +34,8 @@ class Galleria extends Component {
   render() {
     return (
       <section className="my-3 d-flex flex-column">
-        <h2 className="mb-4">{this.props.saga + " Saga:"}</h2>
+        <h2 className="mb-4 d-inline-block">{this.props.saga + " Saga:"}</h2>
+        {this.state.isLoading && <Spinner animation="border" role="status" variant="currentColor"></Spinner>}
         <Row className="gx-2 gy-2">
           {this.state.arrayFilms.map((film) => (
             <Col xs={12} sm={6} md={4} xl={2} key={film.imdbID}>
