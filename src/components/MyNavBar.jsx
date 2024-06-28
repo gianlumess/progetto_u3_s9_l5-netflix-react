@@ -1,4 +1,4 @@
-import { Container, Dropdown, Image, Nav, NavDropdown, Navbar } from "react-bootstrap";
+import { Container, Dropdown, Image, Nav, Navbar } from "react-bootstrap";
 import { BellFill, GearFill, PersonFill, Search } from "react-bootstrap-icons";
 
 const MyNavBar = () => (
@@ -24,7 +24,7 @@ const MyNavBar = () => (
           <BellFill color="currentColor" />
         </button>
         <Dropdown>
-          <Dropdown.Toggle id="dropdown-basic">
+          <Dropdown.Toggle className="p-0" id="dropdown-basic">
             <Image alt="avatar logo" src="avatar.png" />
           </Dropdown.Toggle>
 
