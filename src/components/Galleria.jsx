@@ -38,8 +38,8 @@ class Galleria extends Component {
         {this.state.isLoading && <Spinner animation="border" role="status" variant="currentColor"></Spinner>}
         <Row className="gx-2 gy-2">
           {this.state.arrayFilms.map((film) => (
-            <Col xs={12} sm={6} md={4} xl={2} key={film.imdbID}>
-              <Image className="img-fluid w-100" src={film.Poster} />
+            <Col xs={12} sm={6} md={4} lg={3} xxl={2} key={film.imdbID}>
+              <Image className="img-fluid w-100 poster-film" src={film.Poster} />
             </Col>
           ))}
         </Row>

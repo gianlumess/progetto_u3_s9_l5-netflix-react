@@ -12159,4 +12159,8 @@ section img {
 section img:hover {
   transform: scale(1.1);
   cursor: pointer;
+}
+
+.poster-film {
+  height: 300px;
 }/*# sourceMappingURL=App.css.map */
