@@ -4,6 +4,7 @@ import MyNavBar from "./components/MyNavBar";
 import { Container } from "react-bootstrap";
 import HeroSection from "./components/HeroSection";
 import Galleria from "./components/Galleria";
+import MyFooter from "./components/MyFooter";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <MyNavBar />
       <HeroSection />
       <Galleria saga="Star Wars" />
+      <MyFooter />
     </Container>
   );
 }

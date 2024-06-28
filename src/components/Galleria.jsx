@@ -1,4 +1,5 @@
 import { Component } from "react";
+import { Carousel, Image } from "react-bootstrap";
 
 class Galleria extends Component {
   state = {
@@ -7,6 +8,7 @@ class Galleria extends Component {
 
   filmsFetch = () => {
     fetch("http://www.omdbapi.com/?apikey=dab26447&s=" + this.props.saga, {
+      method: "GET",
       headers: {
         Authorization: "dab26447",
       },
@@ -20,7 +22,7 @@ class Galleria extends Component {
         }
       })
       .then((films) => {
-        console.log(films);
+        this.setState({ arrayFilms: films });
       })
       .catch((err) => console.log(err));
   };
@@ -29,7 +31,20 @@ class Galleria extends Component {
     this.filmsFetch();
   }
   render() {
-    return;
+    return (
+      <Carousel>
+        <section className="my-3 d-flex flex-column">
+          <h3>{this.props.saga + " Saga:"}</h3>
+          <div className="row gx-2 gy-2">
+            {this.state.arrayFilms.map((film) => (
+              <div className="col-12 col-sm-6 col-md-4 col-xl-2">
+                <Image className="img-fluid w-100" src={film.Poster} />
+              </div>
+            ))}
+          </div>
+        </section>
+      </Carousel>
+    );
   }
 }
 
