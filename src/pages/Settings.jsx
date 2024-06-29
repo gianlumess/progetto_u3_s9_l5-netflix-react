@@ -1,11 +1,14 @@
+import "../assets/dist/css/Settings.min.css";
 import { Container } from "react-bootstrap";
-import HeroSection from "../components/HeroSection";
 import MyNavBar from "../components/MyNavBar";
+import SettingsSection from "../components/SettingsSection";
 
 const Settings = () => (
   <Container>
     <MyNavBar />
-    <HeroSection />
+    <h1>Account</h1>
+    <hr />
+    <SettingsSection />
   </Container>
 );
 export default Settings;

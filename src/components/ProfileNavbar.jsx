@@ -1,4 +1,4 @@
-import { Container, Image, Navbar } from "react-bootstrap";
+import { Image, Navbar } from "react-bootstrap";
 import { Link } from "react-router-dom";
 
 const ProfileNavbar = () => (
