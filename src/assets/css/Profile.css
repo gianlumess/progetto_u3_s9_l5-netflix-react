@@ -12136,31 +12136,4 @@ textarea.form-control-lg {
   .d-print-none {
     display: none !important;
   }
-}
-body .navbar img {
-  height: 50px;
-}
-
-.container-fluid, .container-sm, .container-md, .container-lg, .container-xl, .container-xxl {
-  max-width: 60%;
-}
-
-.navbar .container {
-  padding-inline: 0;
-}
-
-.dropdown {
-  padding-inline: 0;
-}
-
-section img {
-  transition: 300ms;
-}
-section img:hover {
-  transform: scale(1.1);
-  cursor: pointer;
-}
-
-.poster-film {
-  height: 300px;
 }/*# sourceMappingURL=Profile.css.map */

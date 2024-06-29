@@ -1,3 +1,5 @@
+import "../assets/dist/css/Profile.min.css";
+
 const ProfileEditSection = () => (
   <>
     <div className="row d-flex flex-column flex-md-row">

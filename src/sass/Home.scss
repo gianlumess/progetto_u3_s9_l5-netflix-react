@@ -19,6 +19,10 @@ body {
   padding-inline: 0;
 }
 
+.poster-film {
+  height: 300px;
+}
+
 section {
   img {
     transition: 300ms;
@@ -27,8 +31,4 @@ section {
     transform: scale(1.1);
     cursor: pointer;
   }
-}
-
-.poster-film {
-  height: 300px;
 }

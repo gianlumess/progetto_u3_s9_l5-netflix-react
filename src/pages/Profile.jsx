@@ -1,4 +1,3 @@
-import "../assets/dist/css/Profile.min.css";
 import { Container } from "react-bootstrap";
 import ProfileNavbar from "../components/ProfileNavbar";
 import ProfileEditSection from "../components/ProfileEditSection";
