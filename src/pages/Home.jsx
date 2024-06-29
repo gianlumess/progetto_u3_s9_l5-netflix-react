@@ -1,3 +1,4 @@
+import "../assets/dist/css/Home.min.css";
 import { Container } from "react-bootstrap";
 import MyNavBar from "../components/MyNavBar";
 import HeroSection from "../components/HeroSection";
