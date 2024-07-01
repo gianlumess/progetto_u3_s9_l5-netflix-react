@@ -13,19 +13,19 @@ const SettingsSection = () => (
         <div className="d-flex justify-content-between">
           <span>student@strive.school</span>
           <a className="link-underline link-underline-opacity-0" href="#">
-            <span className="text-info">Change account email</span>
+            <span className="text-success">Change account email</span>
           </a>
         </div>
         <div className="d-flex justify-content-between">
           <span className="text-secondary">Password: ********</span>
           <a className="link-underline link-underline-opacity-0" href="#">
-            <span className="text-info">Change password</span>
+            <span className="text-success">Change password</span>
           </a>
         </div>
         <div className="d-flex justify-content-between">
           <span className="text-secondary">Phone: 321 044 1279</span>
           <a className="link-underline link-underline-opacity-0" href="#">
-            <span className="text-info">Change phone number</span>
+            <span className="text-success">Change phone number</span>
           </a>
         </div>
         <hr />
@@ -39,12 +39,12 @@ const SettingsSection = () => (
             <i className="bi bi-paypal px-1"></i>admin@strive.school
           </span>
           <a className="link-underline link-underline-opacity-0" href="#">
-            <span className="text-info">Update payment info</span>
+            <span className="text-success">Update payment info</span>
           </a>
         </div>
         <div className="d-flex justify-content-end">
           <a className="link-underline link-underline-opacity-0" href="#">
-            <span className="text-info">Billing details</span>
+            <span className="text-success">Billing details</span>
           </a>
         </div>
         <hr />
@@ -55,12 +55,12 @@ const SettingsSection = () => (
       <div className="col">
         <div className="d-flex justify-content-end">
           <a className="link-underline link-underline-opacity-0" href="#">
-            <span className="text-info">Redeem gift card or promo code</span>
+            <span className="text-success">Redeem gift card or promo code</span>
           </a>
         </div>
         <div className="d-flex justify-content-end">
           <a className="link-underline link-underline-opacity-0" href="#">
-            <span className="text-info">Where to buy gift cards</span>
+            <span className="text-success">Where to buy gift cards</span>
           </a>
         </div>
       </div>
@@ -76,7 +76,7 @@ const SettingsSection = () => (
             Premium <i className="bi bi-badge-hd-fill"></i>
           </span>
           <a className="link-underline link-underline-opacity-0" href="#">
-            <span className="text-info">Change plan</span>
+            <span className="text-success">Change plan</span>
           </a>
         </div>
       </div>
@@ -89,32 +89,32 @@ const SettingsSection = () => (
       <div className="col">
         <div className="d-flex">
           <a className="link-underline link-underline-opacity-0" href="#">
-            <span className="text-info">Parental controls</span>
+            <span className="text-success">Parental controls</span>
           </a>
         </div>
         <div className="d-flex">
           <a className="link-underline link-underline-opacity-0" href="#">
-            <span className="text-info">Test participation</span>
+            <span className="text-success">Test participation</span>
           </a>
         </div>
         <div className="d-flex">
           <a className="link-underline link-underline-opacity-0" href="#">
-            <span className="text-info">Manage download devices</span>
+            <span className="text-success">Manage download devices</span>
           </a>
         </div>
         <div className="d-flex">
           <a className="link-underline link-underline-opacity-0" href="#">
-            <span className="text-info">Activate a device</span>
+            <span className="text-success">Activate a device</span>
           </a>
         </div>
         <div className="d-flex">
           <a className="link-underline link-underline-opacity-0" href="#">
-            <span className="text-info">Recent device streaming activity</span>
+            <span className="text-success">Recent device streaming activity</span>
           </a>
         </div>
         <div className="d-flex">
           <a className="link-underline link-underline-opacity-0" href="#">
-            <span className="text-info">Sign out of all devices</span>
+            <span className="text-success">Sign out of all devices</span>
           </a>
         </div>
       </div>
@@ -132,32 +132,32 @@ const SettingsSection = () => (
           </div>
           <div className="d-flex flex-column align-items-end">
             <a className="link-underline link-underline-opacity-0" href="#">
-              <span className="text-info">Manage profiles</span>
+              <span className="text-success">Manage profiles</span>
             </a>
             <a className="link-underline link-underline-opacity-0" href="#">
-              <span className="text-info">Add profile email</span>
+              <span className="text-success">Add profile email</span>
             </a>
           </div>
         </div>
         <div className="d-flex justify-content-between w-50">
           <a className="link-underline link-underline-opacity-0" href="#">
-            <span className="text-info">Language</span>
+            <span className="text-success">Language</span>
           </a>
           <a className="link-underline link-underline-opacity-0" href="#">
-            <span className="text-info">Viewing activity</span>
+            <span className="text-success">Viewing activity</span>
           </a>
         </div>
         <div className="d-flex justify-content-between w-50">
           <a className="link-underline link-underline-opacity-0" href="#">
-            <span className="text-info">Payblack settings</span>
+            <span className="text-success">Payblack settings</span>
           </a>
           <a className="link-underline link-underline-opacity-0" href="#">
-            <span className="text-info">Ratings</span>
+            <span className="text-success">Ratings</span>
           </a>
         </div>
         <div className="d-flex">
           <a className="link-underline link-underline-opacity-0" href="#">
-            <span className="text-info">Subtitle appaerance</span>
+            <span className="text-success">Subtitle appaerance</span>
           </a>
         </div>
       </div>
