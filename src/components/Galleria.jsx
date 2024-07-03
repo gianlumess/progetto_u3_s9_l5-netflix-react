@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { Col, Image, Row, Spinner } from "react-bootstrap";
+import { Image, Spinner } from "react-bootstrap";
 import Slider from "react-slick";
 
 const Galleria = ({ saga }) => {
