@@ -1,4 +1,4 @@
-import "../assets/dist/css/Profile.min.css";
+/* import "../assets/dist/css/Profile.min.css"; */
 
 const ProfileEditSection = () => (
   <>

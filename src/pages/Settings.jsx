@@ -4,11 +4,13 @@ import MyNavBar from "../components/MyNavBar";
 import SettingsSection from "../components/SettingsSection";
 
 const Settings = () => (
-  <Container>
+  <div data-bs-theme="dark">
     <MyNavBar />
-    <h1>Account</h1>
-    <hr />
-    <SettingsSection />
-  </Container>
+    <Container>
+      <h1>Account</h1>
+      <hr />
+      <SettingsSection />
+    </Container>
+  </div>
 );
 export default Settings;
