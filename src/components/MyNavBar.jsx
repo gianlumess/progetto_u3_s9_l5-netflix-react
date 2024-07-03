@@ -4,7 +4,7 @@ import { BellFill, GearFill, PersonFill, Search } from "react-bootstrap-icons";
 import { NavLink } from "react-router-dom";
 
 const MyNavBar = () => (
-  <Navbar expand="lg" className="bg-primary">
+  <Navbar expand="lg" className="bg-primary sticky-top">
     <Container>
       <Navbar.Brand>
         <Image src="netflix_logo.png" />
