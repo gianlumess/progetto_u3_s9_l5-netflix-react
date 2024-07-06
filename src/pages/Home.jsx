@@ -5,8 +5,8 @@ import Galleria from "../components/Galleria";
 import MyFooter from "../components/MyFooter";
 const Home = () => (
   <div data-bs-theme="dark" className="bg-primary text-white">
+    <MyNavBar />
     <Container>
-      <MyNavBar />
       <HeroSection />
       <Galleria saga="Star Wars" />
       <Galleria saga="Harry Potter" />
