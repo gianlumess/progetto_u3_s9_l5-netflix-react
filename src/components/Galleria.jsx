@@ -77,7 +77,7 @@ const Galleria = ({ saga }) => {
       <div className="slider-container">
         <Slider {...settings}>
           {arrayFilms.map((film) => (
-            <Image className=" w-100 poster-film" src={film.Poster} />
+            <Image key={film.imdbID} className=" w-100 poster-film" src={film.Poster} />
           ))}
         </Slider>
       </div>
