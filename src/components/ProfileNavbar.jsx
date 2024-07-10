@@ -10,8 +10,6 @@ const ProfileNavbar = () => (
           <Image src="netflix_logo.png" />
         </Link>
       </Navbar.Brand>
-      <Navbar.Toggle aria-controls="basic-navbar-nav" />
-      <Navbar.Collapse id="basic-navbar-nav"></Navbar.Collapse>
     </>
   </Navbar>
 );
